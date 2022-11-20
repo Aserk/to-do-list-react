@@ -1,6 +1,6 @@
 import "./style.css";
 
-const List = ({ tasks, hiddenDoneTask }) => (
+const Tasks = ({ tasks, hiddenDoneTask }) => (
     <ul className="list">
         {tasks.map(({ id, content, done }) => (
             <li
@@ -21,4 +21,4 @@ const List = ({ tasks, hiddenDoneTask }) => (
     </ul>
 );
 
-export default List;
+export default Tasks;

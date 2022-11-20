@@ -1,5 +1,5 @@
 import Form from "./Form";
-import List from "./List";
+import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Container from "./Container";
@@ -25,7 +25,7 @@ function App() {
       <Section
         title="Lista zadań"
         body={
-          <List
+          <Tasks
             tasks={tasks}
             hiddenDoneTask={hiddenDoneTask}
             extraHeaderContent={<Buttons tasks={tasks} hiddenDoneTask={hiddenDoneTask} />}
