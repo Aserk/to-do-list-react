@@ -9,7 +9,7 @@ const tasks = [
   { id: 2, content: "pójść na spacer", done: false },
 ];
 
-const hiddenDoneTask = false;
+const hiddenDone = false;
 
 function App() {
   return (
@@ -27,8 +27,8 @@ function App() {
         body={
           <Tasks
             tasks={tasks}
-            hiddenDoneTask={hiddenDoneTask}
-            extraHeaderContent={<Buttons tasks={tasks} hiddenDoneTask={hiddenDoneTask} />}
+            hiddenDone={hiddenDone}
+            extraHeaderContent={<Buttons tasks={tasks} hiddenDone={hiddenDone} />}
           />
         }
       />
