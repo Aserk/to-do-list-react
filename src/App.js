@@ -12,7 +12,7 @@ function App() {
     { id: 2, content: "pójść na spacer", done: false },
   ]);
 
-  const toogleHiddenDone = () => {
+  const toggleHiddenDone = () => {
     setHiddenDone(hiddenDone => !hiddenDone);
   };
 
@@ -20,13 +20,20 @@ function App() {
     setTasks(tasks => tasks.filter(task => task.id !== id));
   };
 
-  const toogleDoneTask = (id) => {
+  const toggleDoneTask = (id) => {
     setTasks(tasks => tasks.map(task => {
       if (task.id === id) {
         return { ...task, done: !task.done };
       }
       return task;
     }));
+  };
+
+  const setAllDone = () => {
+    setTasks(tasks => tasks.map(task => ({
+      ...task,
+      done: true,
+    })));
   };
 
   return (
@@ -46,14 +53,15 @@ function App() {
             tasks={tasks}
             hiddenDone={hiddenDone}
             removeTask={removeTask}
-            toogleDoneTask={toogleDoneTask}
+            toggleDoneTask={toggleDoneTask}
           />
         }
         extraHeaderContent={
           <Buttons
             tasks={tasks}
             hiddenDone={hiddenDone}
-            toogleHiddenDone={toogleHiddenDone}
+            toggleHiddenDone={toggleHiddenDone}
+            setAllDone={setAllDone}
           />
         }
       />
