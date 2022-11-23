@@ -1,13 +1,13 @@
 # To do list
 
 ## Page Preview
-![Page Image](public/to-do-list-page-preview.png)
+![Page Gif](public/todo-list.gif)
 
 ## Demo
 https://aserk.github.io/todo-list-react/
 
 ## Description
-This is a simple to-do list without interactions.
+This is a simple to-do list. You can add a task, mark whether you have completed it, or delete it.
 
 ## Technologies
 To create this page I used:
