@@ -11,9 +11,9 @@ export const GlobalStyled = createGlobalStyle`
         box-sizing: inherit;
     }
 
-    #root {
+    body {
         font-family: 'Montserrat', sans-serif;
-         background-color: #eee;
+        background-color: #eee;
         word-break: break-word;
     }
 `;
