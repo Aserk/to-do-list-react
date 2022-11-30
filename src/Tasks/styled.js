@@ -12,7 +12,7 @@ export const StyledItem = styled.li`
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
 
     ${({ hidden }) => hidden && css`
         display: none;
@@ -27,7 +27,7 @@ export const StyledContent = styled.span`
 
 export const StyledButton = styled.button`
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.color.white};
     width: 30px;
     height: 30px;
     padding: 0;
@@ -35,26 +35,18 @@ export const StyledButton = styled.button`
     cursor: pointer;
 
     ${({ toggleDone }) => toggleDone && css`
-        background-color: hsl(120, 61%, 34%);
-
-        &:hover {
-            background-color: hsl(120, 61%, 39%);
-        }
-
-        &:active {
-            background-color: hsl(120, 61%, 44%);
-        }
+        background-color: ${({ theme }) => theme.color.forestGreen};
     `}
 
     ${({ remove }) => remove && css`
-        background-color: hsl(348, 83%, 47%);
+        background-color: ${({ theme }) => theme.color.crimson};
+    `}
 
-        &:hover {
-            background-color: hsl(348, 83%, 52%);
-    }
+    &:hover {
+            filter: brightness(110%);
+        }
 
         &:active {
-            background-color: hsl(348, 83%, 57%);
-    }
-    `}
+            filter: brightness(120%);
+        }
 `;

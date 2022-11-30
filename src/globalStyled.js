@@ -13,7 +13,7 @@ export const GlobalStyled = createGlobalStyle`
 
     body {
         font-family: 'Montserrat', sans-serif;
-        background-color: #eee;
+        background-color: ${({ theme }) => theme.color.gallery};
         word-break: break-word;
     }
 `;

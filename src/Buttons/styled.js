@@ -6,27 +6,27 @@ export const StyledButtonContainer = styled.div`
 `;
 
 export const StyledButtons = styled.button`
-    color: teal;
+    color: ${({ theme }) => theme.color.teal};
     background-color: transparent;
     border: none;
     margin-left: 20px;
     transition: color 0.5s;
     cursor: pointer;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         flex-basis: 100%;
         margin: 10px;
     }
 
     &:hover {
-        color: hsl(180, 100%, 30%);
+        filter: brightness(110%);
     }
 
     &:active {
-        color: hsl(180, 100%, 35%);
+        filter: brightness(110%);
     }
 
     &:disabled {
-        color: #ccc;
+        color: ${({ theme }) => theme.color.silver};
     }
 `;
