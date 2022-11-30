@@ -13,8 +13,8 @@ This is a simple to-do list. You can add a task, mark whether you have completed
 To create this page I used:
 1. HTML
 2. CSS
-3. JavaScript
-4. BEM convention
+3. Styled Components
+4. JavaScript
 5. React
 # Getting Started with Create React App
 
