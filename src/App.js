@@ -2,7 +2,7 @@ import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
-import Container from "./Container";
+import { Container } from "./Container/styled";
 import { useState } from "react";
 import { useTasks } from "./useTasks"
 
