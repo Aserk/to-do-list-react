@@ -1,12 +1,12 @@
 import styled, { css } from "styled-components";
 
-export const StyledList = styled.ul`
+export const List = styled.ul`
     list-style-type: none;
     padding: 20px;
     margin: 0;
 `;
 
-export const StyledItem = styled.li`
+export const Item = styled.li`
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
@@ -19,13 +19,13 @@ export const StyledItem = styled.li`
     `}
 `;
 
-export const StyledContent = styled.span`
+export const Content = styled.span`
     ${({ done }) => done && css`
         text-decoration: line-through;
     `}
 `;
 
-export const StyledButton = styled.button`
+export const Button = styled.button`
     border: none;
     color: ${({ theme }) => theme.color.white};
     width: 30px;

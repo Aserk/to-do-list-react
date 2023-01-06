@@ -11,12 +11,12 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const StyledInput = styled.input`
+export const Input = styled.input`
     border: 2px solid ${({ theme }) => theme.color.alto};
     padding: 10px;
 `;
 
-export const StyledButton = styled.button`
+export const Button = styled.button`
     padding: 10px;
     background-color: ${({ theme }) => theme.color.teal};
     color: ${({ theme }) => theme.color.white};

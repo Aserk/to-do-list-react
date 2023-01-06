@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
     box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
 `;
 
-export const StyledHeader = styled.div`
+export const Header = styled.div`
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
@@ -18,7 +18,7 @@ export const StyledHeader = styled.div`
     }
 `;
 
-export const StyledTitle = styled.h2`
+export const Title = styled.h2`
     font-size: 20px;
     margin: 0;
 `;
