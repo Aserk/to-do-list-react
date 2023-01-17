@@ -16,6 +16,7 @@ To create this page I used:
 3. Styled Components
 4. JavaScript
 5. React
+6. Redux
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
