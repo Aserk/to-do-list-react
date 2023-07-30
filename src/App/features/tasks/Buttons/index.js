@@ -6,6 +6,7 @@ const Buttons = () => {
     const hideDone = useSelector(selectHideDone);
     const isTasksEmpty = useSelector(selectIsTasksEmpty);
     const isEveryTasksDone = useSelector(selectIsEveryTasksDone);
+
     const dispatch = useDispatch();
 
     if (!isTasksEmpty) {

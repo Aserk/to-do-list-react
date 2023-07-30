@@ -5,6 +5,7 @@ import { List, Item, DoneButton, RemoveButton, Content } from "./styled"
 const TaskList = () => {
     const tasks = useSelector(selectTasks);
     const hideDone = useSelector(selectHideDone);
+    
     const dispatch = useDispatch();
 
     return (
