@@ -26,6 +26,10 @@ const tasksSlice = createSlice({
                 task.done = true;
             }
         },
+        fetchExampleTasks: () => {},
+        setTasks: (state, {payload: tasks}) => {
+            state.tasks = tasks;
+        },
     },
 });
 
@@ -34,7 +38,9 @@ export const {
     toogleHideDone,
     toogleTaskDone,
     removeTask,
-    setAllDone
+    setAllDone,
+    fetchExampleTasks,
+    setTasks,
 } = tasksSlice.actions;
 
 const selectTasksState = state => state.tasks;
