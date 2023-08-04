@@ -2,7 +2,8 @@ import styled, { css } from "styled-components";
 
 export const List = styled.ul`
     list-style-type: none;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 0;
     margin: 0;
 `;
 
