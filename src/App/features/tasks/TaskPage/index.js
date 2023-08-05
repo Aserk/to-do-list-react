@@ -4,7 +4,7 @@ import Section from "../../../common/Section";
 import { Container } from "../../../common/Container/styled";
 import { getTaskbyId } from "../tasksSlice";
 
-function TaskPage() {
+const TaskPage = () => {
     const { id } = useParams();
     const task = useSelector(state => getTaskbyId(state, id));
 

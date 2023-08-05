@@ -4,17 +4,20 @@ import Buttons from "./Buttons";
 import Section from "../../../common/Section";
 import { Container } from "../../../common/Container/styled";
 import Search from "./Search";
+import Button from "./Button";
 
-function TasksPage() {
+const TasksPage = () => {
 
   return (
     <Container>
       <header>
         <h1>Lista zadań</h1>
       </header>
+
       <Section
         title="Dodaj nowe zadanie"
         body={<Form />}
+        extraHeaderContent={<Button />}
       />
 
       <Section
