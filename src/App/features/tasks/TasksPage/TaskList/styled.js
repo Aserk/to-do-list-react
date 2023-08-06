@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const List = styled.ul`
     list-style-type: none;
@@ -49,4 +50,9 @@ export const DoneButton = styled(Button)`
 
 export const RemoveButton = styled(Button)`
         background-color: ${({ theme }) => theme.color.crimson};
+`;
+
+export const StyledLink = styled(Link)`
+        text-decoration: none;
+        color: ${({ theme }) => theme.color.teal};
 `;
