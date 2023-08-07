@@ -10,9 +10,12 @@ export default () => (
             title="Rafał Jabłoński"
             body={
                 <>
-                    Mam na imię Rafał. Lubię oglądać anime, uprawiać różne sporty i oglądać zachody słońca. 
-                    Pochodzę z Mazur, ale kilka lat mieszkałem w Gdańsku. 
-                    Wyjechałem na studia, a później zacząłem pracować w gastronomii.
+                    <p>Mam na imię <strong>Rafał</strong> i obecnie <strong>28 lat</strong>. Jestem pasjonatem programowania, szczególnie frond-endu.</p>
+                    <p>Aktualnie poświęcam czas na zgłębienie tajników <em>Reacta</em>.
+                        W planach mam również rozwijanie się w kierunku <em>TypeScript</em>, aby poszerzyć moje umiejętności.</p>
+                    <p>Uwielbiam tworzyć piękne i interaktywne interfejsy, które zapewniają użytkownikom wspaniałe doświadczenia.</p>
+                    <p>Oprócz tego, uwielbiam zachody słońca - te magiczne momenty natury zawsze mnie fascynują.</p>
+                    <p>W wolnych chwilach często też oglądam <strong>anime</strong>, które dostarcza mi emocji i ciekawych historii.</p>
                 </>
             }
         />
