@@ -1,9 +1,9 @@
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
+import Search from "./Search";
 import Section from "../../../common/Section";
 import { Container } from "../../../common/Container/styled";
-import Search from "./Search";
 import FetchExampleTasksButton from "./fetchExampleTasksButton";
 
 const TasksPage = () => {

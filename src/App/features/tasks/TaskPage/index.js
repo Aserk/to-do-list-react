@@ -1,8 +1,8 @@
-import { useParams } from "react-router-dom"
 import { useSelector } from "react-redux"
+import { useParams } from "react-router-dom"
+import { getTaskbyId } from "../tasksSlice";
 import Section from "../../../common/Section";
 import { Container } from "../../../common/Container/styled";
-import { getTaskbyId } from "../tasksSlice";
 
 const TaskPage = () => {
     const { id } = useParams();
