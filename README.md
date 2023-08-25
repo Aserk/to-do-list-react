@@ -1,22 +1,21 @@
 # To do list
 
 ## Page Preview
-![Page Gif](public/todo-list.gif)
+![Page Gif](todo-list.gif)
 
 ## Demo
 https://aserk.github.io/todo-list-react/
 
 ## Description
-This is a simple to-do list. You can add a task, mark whether you have completed it, or delete it.
+Simple project of a to-do list management application. It allows users to add new tasks, mark them as completed, delete tasks, and search for specific tasks.
 
 ## Technologies
-To create this page I used:
-1. HTML
-2. CSS
-3. Styled Components
-4. JavaScript
-5. React
-6. Redux
+1. React
+2. React Router
+3. React Redux
+4. Redux Saga
+5. Redux-Toolkit
+6. Styled Components
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
