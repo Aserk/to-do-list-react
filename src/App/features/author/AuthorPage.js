@@ -1,7 +1,7 @@
 import { Container } from "../../common/Container/styled";
 import Section from "../../common/Section";
 
-export default () => (
+const AuthorPage = () => (
     <Container>
         <header>
             <h1>O autorze</h1>
@@ -21,3 +21,5 @@ export default () => (
         />
     </Container>
 );
+
+export default AuthorPage;

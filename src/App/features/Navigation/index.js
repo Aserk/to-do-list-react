@@ -1,7 +1,7 @@
-import { Item, List, StyledNavigation, StyledNavLink } from "./styled";
+import { Item, List, StyledNavLink } from "./styled";
 
 const Navigation = () => (
-    <StyledNavigation>
+    <nav>
         <List>
             <Item>
                 <StyledNavLink to="/zadania">Zadania</StyledNavLink>
@@ -10,7 +10,7 @@ const Navigation = () => (
                 <StyledNavLink to="/author">O autorze</StyledNavLink>
             </Item>
         </List>
-    </StyledNavigation>
+    </nav>
 );
 
 export default Navigation;
