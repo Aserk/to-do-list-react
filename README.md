@@ -7,7 +7,9 @@
 https://aserk.github.io/todo-list-react/
 
 ## Description
-Simple project of a to-do list management application. It allows users to add new tasks, mark them as completed, delete tasks, and search for specific tasks.
+Simple project of a **to-do list** management application. It allows users to add new tasks, mark them as completed, delete tasks, and search for specific tasks.
+
+The application uses **localStorage** to store, save and retrieve entered data, when reopened on a given device.
 
 ## Technologies
 1. React 18.2.0
