@@ -10,12 +10,12 @@ https://aserk.github.io/todo-list-react/
 Simple project of a to-do list management application. It allows users to add new tasks, mark them as completed, delete tasks, and search for specific tasks.
 
 ## Technologies
-1. React
-2. React Router
-3. React Redux
-4. Redux Saga
-5. Redux-Toolkit
-6. Styled Components
+1. React 18.2.0
+2. React-Router 5.3.3
+3. React-Redux 8.0.5
+4. Redux-Saga 1.2.3
+5. Redux-Toolkit 1.9.1
+6. Styled Components 5.3.6
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
